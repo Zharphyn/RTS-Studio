@@ -10,3 +10,7 @@ PlayerAI::PlayerAI()
 PlayerAI::~PlayerAI()
 {
 }
+
+void PlayerAI::Run()
+{
+}

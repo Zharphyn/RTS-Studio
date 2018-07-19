@@ -7,5 +7,7 @@ class PlayerAI :
 public:
 	PlayerAI();
 	~PlayerAI();
+
+	void Run();
 };
 

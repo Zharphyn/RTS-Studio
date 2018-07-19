@@ -9,17 +9,7 @@ public:
 	Game();
 	~Game();
 
-public:
-
-	void Run()
-	{
-		while (true)
-		{
-			mPlayerHuman.Run();
-			mPlayerAI.Run();
-		}
-	}
-
+	void Run();
 	PlayerHuman mPlayerHuman;
 	PlayerAI mPlayerAI;
 };

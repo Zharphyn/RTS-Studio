@@ -10,3 +10,7 @@ PlayerHuman::PlayerHuman()
 PlayerHuman::~PlayerHuman()
 {
 }
+
+void PlayerHuman::Run()
+{
+}

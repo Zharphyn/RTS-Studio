@@ -10,3 +10,8 @@ Army::Army()
 Army::~Army()
 {
 }
+
+Unit * Army::CreateUnit(eUnitType type)
+{
+	return nullptr;
+}
