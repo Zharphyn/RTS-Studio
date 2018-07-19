@@ -147,20 +147,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Army.h" />
+    <ClInclude Include="FireUnit.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerAI.h" />
+    <ClInclude Include="PlayerHuman.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="SingletonExtender.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Unit.h" />
     <ClInclude Include="Writer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Army.cpp" />
+    <ClCompile Include="FireUnit.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="pg13_BradThiessen_OOP_A4.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerAI.cpp" />
+    <ClCompile Include="PlayerHuman.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Unit.cpp" />
     <ClCompile Include="Writer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
